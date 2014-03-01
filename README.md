@@ -60,7 +60,14 @@ For your convenience, *Doxygen* style comments have been added into the public h
 
 ## B. Installation
 
-Before you begin, please consider using utilizing this SDK as a submodule in your application.
+Using CocoaPods:
+```
+pod 'IDmeVerify'
+```
+
+If you don't sue CocoaPods, consider add this SDK as a submodule of your application. 
+
+Regardless which method you use, make sure to the follow the directions below.
 
 1. Drag the **ID.me Verify SDK** file into your project. This includes the following files
 	- `libIDmeVerify.a`
